@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="main-container">
+    <div class="grid-container">
+
+      <div class="left-grid grid-boxes">
+        <div class="left-container">
+          <div class="main-img">
+            <img src="./Content/Images/clinton.jpg" alt="profile picture">
+          </div>
+          <div class="social">
+            <a href="https://www.linkedin.com/in/clinton-garalde-62133516a/" target="_blank"><img src="./Content/Icons/linkedin.svg"
+                alt="linkedin logo"></a>
+            <a href="https://github.com/FoxDelioncourt" target="_blank"><img src="./Content/Icons/github.svg" alt="github logo"></a>
+          </div>
+          <footer>
+            <p>Icons made by
+              <!-- <a href="https://www.flaticon.com/authors/prettycons" title="prettycons">prettycons</a>, -->
+              <a href="http://www.freepik.com" title="Freepik">Freepik</a> and <a href="https://www.flaticon.com/authors/smashicons"
+                title="Smashicons">Smashicons</a>
+              from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"
+                title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></p>
+          </footer>
+        </div>
+      </div>
+
+      <div class="mid-grid grid-boxes">
+        <nav>
+          <div class="hamburger">
+            <svg width="22" height="18" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0 3V0h21.417v3H0zm0 7.417v-3h21.417v3H0zm0 7.417v-3h15.5v3H0z" fill="#121212" fill-rule="nonzero" />
+            </svg>
+          </div>
+          <a href="#about-section" class="about-link">About</a>
+          <a href="#projects-section" class="projects-link">Projects</a>
+          <a href="#passions-section" class="passions-link">Passions</a>
+          <a href="#contact-section" class="contact-link">Contact</a>
+        </nav>
+      </div>
+
+      <div class="right-grid grid-boxes">
+        <div class="right-container">
+          <div id="about-section" class="article">
+            <h1 class="hero">
+              Hi, Clinton here. I am a passionate developer with an eye for design. I am based in Dubai, UAE but will
+              forever have Filipino roots.
+            </h1>
+            <p>
+              I have loved digital content all my life. The love affair started with Battle Tank in our family Atari
+              and ever since I have always wondered how those pixels move. A few years passed, then my first CLI
+              baptism by fire came, the MS-DOS command prompt, the config.sys and the autoexec.bat. I had to learn how
+              to squeeze every ounce of juice from my X386 computer so that I can play Warcraft: Orcs and Humans,
+              Command & Conquer: Tiberian Sun.
+            </p>
+            <div class="skills">
+              <div class="frontend-section skills-section">
+                <div class="skills-head">
+                  <img src="./Content/Icons/monitor.svg" alt="frontend-icon">
+                  <h3 class="skills-title">Front-end Developer</h3>
+                  <p class="skills-description"> I work with the usual tools of CSS3, HTML5 and Javascript,
+                    particularly React.js. I prefer to work
+                    exclusively with these but a
+                    little Materialize CSS, Semantic UI and Bootstrap can still help in a pinch. I do love Anime.js for
+                    its simplicty in accomplishing complex
+                    animations.</p>
+                </div>
+              </div>
+              <div class="backend-section skills-section">
+                <div class="skills-head">
+                  <img src="./Content/Icons/server.svg" alt="backend-icon">
+                  <h3 class="skills-title">Back-end Developer</h3>
+                  <p class="skills-description">I am a technical person with a keen eye in aesthetics. I am an ERP
+                    Developer in my day job and use
+                    C/AL, C# and Sql Server everyday. When moonlighting, I use Node.js, MongoDb and Express.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="projects-section">
+            <h2>What I have done......so far...</h2>
+            <div class="projects-card card1">
+              <h3>Beside portal</h3>
+              <img class="projects-img" src="./Content/Images/Beside-reports.jpg" alt="">
+              <p class="projects-link"><a href="https://mis.besidegroup.com" target="_blank">Visit</a></p>
+            </div>
+            <p class="projects-desc">
+              A Management Information System site presented with the pizzazz of the fashion retail industry. BESIDE
+              company's reports, tutorial videos and all other BESIDE-related information at the user's fingertips.
+            </p>
+
+            <div class="projects-card card2">
+              <h3>Beside Website Rebuild</h3>
+              <img class="projects-img" src="./Content/Images/Beside-page.jpg" alt="">
+              <p class="projects-link"><a href="http://www.besidegroup.com" target="_blank">Visit</a></p>
+            </div>
+            <p class="projects-desc">
+              BESIDE's company website to be rebuilt using the latest technologies. (Stay tuned)
+            </p>
+          </div>
+
+          <div id="passions-section">
+            <h2>Stay tuned for more greater things!</h2>
+          </div>
+
+          <div id="contact-section">
+            <h2>How can I help you?.</h2>
+            <form action="" method="post">
+              <label for="name">Name</label>
+              <input type="text" name="name" id="name" required placeholder="What's your name?">
+              <label for="name">E-mail</label>
+              <input type="email" name="email" id="email" required placeholder="your@email.com">
+              <label for="mobile">Mobile No.</label>
+              <input type="text" name="mobile" id="mobile" placeholder="###-#######">
+              <label for="additional">Additional details</label>
+              <textarea name="additional" id="additional" cols="30" rows="10" required placeholder="Tell me about your project"></textarea>
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+
+
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <script src="./anime.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <script src="./animate.js"></script>
+</body>
+
+</html>
